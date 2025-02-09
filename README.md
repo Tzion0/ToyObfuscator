@@ -5,10 +5,10 @@
 ToyObfuscator
 A GUI-based obfuscation tool that utilizes obfuscation techniques from [Obfuscator-LLVM](https://github.com/obfuscator-llvm/obfuscator) and [String Obfuscation](https://www.praetorian.com/blog/extending-llvm-for-code-obfuscation-part-1/) technique by Praetorian.
 
-# GUI Image
+## GUI Image
 <img src="https://github.com/user-attachments/assets/3730e4d7-230a-4923-9848-85ce63fed10a" alt="Main Interface" style="max-width: 400px; height: 400px;">
 
-# Notes
+## Notes
 Each directory serves a different purpose. The final complete executable is `ToyObfuscator-1.0-x86_64.AppImage`, which is the only file required to launch the application. Other files in the directories are the source code used to build this executable.
 
 ## ToyObfuscator Directory
