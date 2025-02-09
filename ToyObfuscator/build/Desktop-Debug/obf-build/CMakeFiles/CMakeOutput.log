@@ -1,0 +1,2219 @@
+The system is: Linux - 6.8.0-48-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/3.22.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/3.22.1/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2219/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2219.dir/build.make CMakeFiles/cmTC_f2219.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2219.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f2219.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccdMYcoh.s
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 50eaa2331df977b8016186198deb2d18
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2219.dir/'
+ as -v --64 -o CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o /tmp/ccdMYcoh.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_f2219
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2219.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o -o cmTC_f2219 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2219' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f2219.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXq0D1q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f2219 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2219' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f2219.'
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2219/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2219.dir/build.make CMakeFiles/cmTC_f2219.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2219.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f2219.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccdMYcoh.s]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 50eaa2331df977b8016186198deb2d18]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2219.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o /tmp/ccdMYcoh.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_f2219]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2219.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o -o cmTC_f2219 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f2219' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_f2219.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXq0D1q.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_f2219 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccXq0D1q.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f2219] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_f2219.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05425/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05425.dir/build.make CMakeFiles/cmTC_05425.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05425.dir/'
+ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05425.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccx2ukPD.s
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/11
+ /usr/include/x86_64-linux-gnu/c++/11
+ /usr/include/c++/11/backward
+ /usr/lib/gcc/x86_64-linux-gnu/11/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 11.4.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05425.dir/'
+ as -v --64 -o CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccx2ukPD.s
+GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_05425
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05425.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05425 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05425' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05425.'
+ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3PKPYd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_05425 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05425' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05425.'
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/11]
+    add: [/usr/include/x86_64-linux-gnu/c++/11]
+    add: [/usr/include/c++/11/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+  collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_05425/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_05425.dir/build.make CMakeFiles/cmTC_05425.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05425.dir/']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.22/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_05425.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccx2ukPD.s]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/11]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+  ignore line: [ /usr/include/c++/11/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Ubuntu 11.4.0-1ubuntu1~22.04) version 11.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 11.4.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: d591828bb4d392ae8b7b160e5bb0b95f]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05425.dir/']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccx2ukPD.s]
+  ignore line: [GNU assembler version 2.38 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.38]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_05425]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05425.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_05425 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_05425' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_05425.']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3PKPYd.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_05425 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc3PKPYd.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_05425] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+    arg [CMakeFiles/cmTC_05425.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d4a67/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d4a67.dir/build.make CMakeFiles/cmTC_d4a67.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4a67.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d4a67.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d4a67
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4a67.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d4a67.dir/CheckIncludeFile.c.o -o cmTC_d4a67 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12060/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_12060.dir/build.make CMakeFiles/cmTC_12060.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12060.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_12060.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_12060
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12060.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_12060.dir/CheckIncludeFile.c.o -o cmTC_12060 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f364d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f364d.dir/build.make CMakeFiles/cmTC_f364d.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f364d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f364d.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f364d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f364d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f364d.dir/CheckIncludeFile.c.o -o cmTC_f364d 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fce75/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fce75.dir/build.make CMakeFiles/cmTC_fce75.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fce75.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fce75.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fce75
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fce75.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fce75.dir/CheckIncludeFile.c.o -o cmTC_fce75 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fbdaf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fbdaf.dir/build.make CMakeFiles/cmTC_fbdaf.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fbdaf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fbdaf.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fbdaf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbdaf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fbdaf.dir/CheckIncludeFile.c.o -o cmTC_fbdaf 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_239e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_239e8.dir/build.make CMakeFiles/cmTC_239e8.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_239e8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_239e8.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_239e8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_239e8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_239e8.dir/CheckIncludeFile.c.o -o cmTC_239e8 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73e6a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73e6a.dir/build.make CMakeFiles/cmTC_73e6a.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73e6a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_73e6a.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_73e6a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e6a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_73e6a.dir/CheckIncludeFile.c.o -o cmTC_73e6a 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b19c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b19c.dir/build.make CMakeFiles/cmTC_8b19c.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b19c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8b19c.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8b19c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b19c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8b19c.dir/CheckIncludeFile.c.o -o cmTC_8b19c 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_200cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_200cf.dir/build.make CMakeFiles/cmTC_200cf.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_200cf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_200cf.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_200cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_200cf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_200cf.dir/CheckIncludeFile.c.o -o cmTC_200cf 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_35fbd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_35fbd.dir/build.make CMakeFiles/cmTC_35fbd.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_35fbd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_35fbd.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_35fbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35fbd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_35fbd.dir/CheckIncludeFile.c.o -o cmTC_35fbd 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c5b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c5b2.dir/build.make CMakeFiles/cmTC_8c5b2.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c5b2.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8c5b2.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8c5b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c5b2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8c5b2.dir/CheckIncludeFile.c.o -o cmTC_8c5b2 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5aa27/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5aa27.dir/build.make CMakeFiles/cmTC_5aa27.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5aa27.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5aa27.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5aa27
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5aa27.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5aa27.dir/CheckIncludeFile.c.o -o cmTC_5aa27 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c8fbf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c8fbf.dir/build.make CMakeFiles/cmTC_c8fbf.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8fbf.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c8fbf.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c8fbf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8fbf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c8fbf.dir/CheckIncludeFile.c.o -o cmTC_c8fbf 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8bc43/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8bc43.dir/build.make CMakeFiles/cmTC_8bc43.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bc43.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8bc43.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8bc43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bc43.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8bc43.dir/CheckIncludeFile.c.o -o cmTC_8bc43 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_01846/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_01846.dir/build.make CMakeFiles/cmTC_01846.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_01846.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_01846.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_01846
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01846.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_01846.dir/CheckIncludeFile.c.o -o cmTC_01846 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6516/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6516.dir/build.make CMakeFiles/cmTC_e6516.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6516.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e6516.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e6516
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6516.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e6516.dir/CheckIncludeFile.c.o -o cmTC_e6516 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_134cd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_134cd.dir/build.make CMakeFiles/cmTC_134cd.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_134cd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_134cd.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_134cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_134cd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_134cd.dir/CheckIncludeFile.c.o -o cmTC_134cd 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_596b4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_596b4.dir/build.make CMakeFiles/cmTC_596b4.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_596b4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_596b4.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_596b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_596b4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_596b4.dir/CheckIncludeFile.c.o -o cmTC_596b4 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9892/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9892.dir/build.make CMakeFiles/cmTC_c9892.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9892.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c9892.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c9892
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9892.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c9892.dir/CheckIncludeFile.c.o -o cmTC_c9892 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_afdf1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_afdf1.dir/build.make CMakeFiles/cmTC_afdf1.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afdf1.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_afdf1.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_afdf1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afdf1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_afdf1.dir/CheckIncludeFile.c.o -o cmTC_afdf1 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1a117/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1a117.dir/build.make CMakeFiles/cmTC_1a117.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a117.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a117.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_1a117
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a117.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1a117.dir/CheckIncludeFile.c.o -o cmTC_1a117 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_db5f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_db5f5.dir/build.make CMakeFiles/cmTC_db5f5.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db5f5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_db5f5.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_db5f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db5f5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_db5f5.dir/CheckIncludeFile.c.o -o cmTC_db5f5 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2f0a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2f0a6.dir/build.make CMakeFiles/cmTC_2f0a6.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f0a6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2f0a6.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2f0a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f0a6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2f0a6.dir/CheckIncludeFile.c.o -o cmTC_2f0a6 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9ff99/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9ff99.dir/build.make CMakeFiles/cmTC_9ff99.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ff99.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9ff99.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9ff99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ff99.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9ff99.dir/CheckIncludeFile.c.o -o cmTC_9ff99 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9794/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9794.dir/build.make CMakeFiles/cmTC_c9794.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9794.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c9794.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c9794
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9794.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c9794.dir/CheckSymbolExists.c.o -o cmTC_c9794  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_17c22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_17c22.dir/build.make CMakeFiles/cmTC_17c22.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17c22.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_17c22.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_17c22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17c22.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_17c22.dir/CheckSymbolExists.c.o -o cmTC_17c22  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e4aa4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e4aa4.dir/build.make CMakeFiles/cmTC_e4aa4.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4aa4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_e4aa4.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e4aa4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4aa4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_e4aa4.dir/CheckFunctionExists.c.o -o cmTC_e4aa4  -lpthread -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86bc9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_86bc9.dir/build.make CMakeFiles/cmTC_86bc9.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86bc9.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific -o CMakeFiles/cmTC_86bc9.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_86bc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86bc9.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getspecific CMakeFiles/cmTC_86bc9.dir/CheckFunctionExists.c.o -o cmTC_86bc9  -lpthread -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2dca2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2dca2.dir/build.make CMakeFiles/cmTC_2dca2.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2dca2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -o CMakeFiles/cmTC_2dca2.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2dca2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dca2.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init CMakeFiles/cmTC_2dca2.dir/CheckFunctionExists.c.o -o cmTC_2dca2  -lpthread -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb466/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb466.dir/build.make CMakeFiles/cmTC_bb466.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bb466.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -o CMakeFiles/cmTC_bb466.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bb466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb466.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock CMakeFiles/cmTC_bb466.dir/CheckFunctionExists.c.o -o cmTC_bb466  -lpthread -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bec05/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bec05.dir/build.make CMakeFiles/cmTC_bec05.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bec05.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -o CMakeFiles/cmTC_bec05.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bec05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bec05.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen CMakeFiles/cmTC_bec05.dir/CheckFunctionExists.c.o -o cmTC_bec05  -ldl -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e36d6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e36d6.dir/build.make CMakeFiles/cmTC_e36d6.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e36d6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_e36d6.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e36d6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e36d6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_e36d6.dir/CheckFunctionExists.c.o -o cmTC_e36d6  -lrt -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_705bd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_705bd.dir/build.make CMakeFiles/cmTC_705bd.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_705bd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_705bd.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_705bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_705bd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_705bd.dir/CheckIncludeFile.c.o -o cmTC_705bd 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1921e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1921e.dir/build.make CMakeFiles/cmTC_1921e.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1921e.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1921e.dir/src.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1921e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1921e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1921e.dir/src.c.o -o cmTC_1921e  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad43a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad43a.dir/build.make CMakeFiles/cmTC_ad43a.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad43a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2 -o CMakeFiles/cmTC_ad43a.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ad43a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad43a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=compress2 CMakeFiles/cmTC_ad43a.dir/CheckFunctionExists.c.o -o cmTC_ad43a  -lz -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setupterm exists in the tinfo passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2d54/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2d54.dir/build.make CMakeFiles/cmTC_f2d54.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2d54.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm -o CMakeFiles/cmTC_f2d54.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f2d54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2d54.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm CMakeFiles/cmTC_f2d54.dir/CheckFunctionExists.c.o -o cmTC_f2d54  -ltinfo -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad5b3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad5b3.dir/build.make CMakeFiles/cmTC_ad5b3.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad5b3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ad5b3.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ad5b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad5b3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ad5b3.dir/CheckSymbolExists.c.o -o cmTC_ad5b3  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c5ef7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c5ef7.dir/build.make CMakeFiles/cmTC_c5ef7.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5ef7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c5ef7.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c5ef7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5ef7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c5ef7.dir/CheckSymbolExists.c.o -o cmTC_c5ef7  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9e3a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9e3a.dir/build.make CMakeFiles/cmTC_c9e3a.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9e3a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c9e3a.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c9e3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9e3a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c9e3a.dir/CheckSymbolExists.c.o -o cmTC_c9e3a  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_143d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_143d3.dir/build.make CMakeFiles/cmTC_143d3.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_143d3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_143d3.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_143d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_143d3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_143d3.dir/CheckSymbolExists.c.o -o cmTC_143d3  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bfdb3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bfdb3.dir/build.make CMakeFiles/cmTC_bfdb3.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfdb3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bfdb3.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bfdb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfdb3.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bfdb3.dir/CheckSymbolExists.c.o -o cmTC_bfdb3  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_87793/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_87793.dir/build.make CMakeFiles/cmTC_87793.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87793.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_87793.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_87793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87793.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_87793.dir/CheckSymbolExists.c.o -o cmTC_87793  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_824c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_824c5.dir/build.make CMakeFiles/cmTC_824c5.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_824c5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_824c5.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_824c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_824c5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_824c5.dir/CheckSymbolExists.c.o -o cmTC_824c5  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b7b3f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b7b3f.dir/build.make CMakeFiles/cmTC_b7b3f.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b7b3f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b7b3f.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b7b3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7b3f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b7b3f.dir/CheckSymbolExists.c.o -o cmTC_b7b3f  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3aa8b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3aa8b.dir/build.make CMakeFiles/cmTC_3aa8b.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3aa8b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3aa8b.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3aa8b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aa8b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3aa8b.dir/CheckSymbolExists.c.o -o cmTC_3aa8b  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_fallocate exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_131ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_131ea.dir/build.make CMakeFiles/cmTC_131ea.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_131ea.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_131ea.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_131ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_131ea.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_131ea.dir/CheckSymbolExists.c.o -o cmTC_131ea  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_fallocate
+  return ((int*)(&posix_fallocate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8dff4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8dff4.dir/build.make CMakeFiles/cmTC_8dff4.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8dff4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8dff4.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8dff4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dff4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8dff4.dir/CheckSymbolExists.c.o -o cmTC_8dff4  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the writev exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c9237/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c9237.dir/build.make CMakeFiles/cmTC_c9237.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9237.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c9237.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c9237
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9237.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c9237.dir/CheckSymbolExists.c.o -o cmTC_c9237  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lseek64 exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_47924/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47924.dir/build.make CMakeFiles/cmTC_47924.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47924.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_LARGEFILE64_SOURCE   -o CMakeFiles/cmTC_47924.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_47924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47924.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_47924.dir/CheckSymbolExists.c.o -o cmTC_47924  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_badba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_badba.dir/build.make CMakeFiles/cmTC_badba.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_badba.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_badba.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:3: warning: ‘mallinfo’ is deprecated [-Wdeprecated-declarations]
+    8 |   return ((int*)(&mallinfo))[argc];
+      |   ^~~~~~
+In file included from /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:
+/usr/include/malloc.h:114:24: note: declared here
+  114 | extern struct mallinfo mallinfo (void) __THROW __MALLOC_DEPRECATED;
+      |                        ^~~~~~~~
+Linking C executable cmTC_badba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_badba.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_badba.dir/CheckSymbolExists.c.o -o cmTC_badba  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9560f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9560f.dir/build.make CMakeFiles/cmTC_9560f.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9560f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9560f.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9560f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9560f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9560f.dir/CheckSymbolExists.c.o -o cmTC_9560f  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e645e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e645e.dir/build.make CMakeFiles/cmTC_e645e.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e645e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e645e.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e645e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e645e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e645e.dir/CheckSymbolExists.c.o -o cmTC_e645e  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mktemp exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_039e6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_039e6.dir/build.make CMakeFiles/cmTC_039e6.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_039e6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_039e6.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_039e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_039e6.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_039e6.dir/CheckSymbolExists.c.o -o cmTC_039e6  -lm 
+/usr/bin/ld: CMakeFiles/cmTC_039e6.dir/CheckSymbolExists.c.o: in function `main':
+CheckSymbolExists.c:(.text+0x1f): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getcwd exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f49bf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f49bf.dir/build.make CMakeFiles/cmTC_f49bf.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f49bf.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f49bf.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f49bf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f49bf.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f49bf.dir/CheckSymbolExists.c.o -o cmTC_f49bf  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4713/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4713.dir/build.make CMakeFiles/cmTC_c4713.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4713.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c4713.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c4713
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4713.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c4713.dir/CheckSymbolExists.c.o -o cmTC_c4713  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d9fde/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d9fde.dir/build.make CMakeFiles/cmTC_d9fde.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d9fde.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d9fde.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d9fde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9fde.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_d9fde.dir/CheckSymbolExists.c.o -o cmTC_d9fde  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88e81/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88e81.dir/build.make CMakeFiles/cmTC_88e81.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_88e81.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_88e81.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_88e81
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88e81.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_88e81.dir/CheckSymbolExists.c.o -o cmTC_88e81  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3200a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3200a.dir/build.make CMakeFiles/cmTC_3200a.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3200a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3200a.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3200a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3200a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3200a.dir/CheckSymbolExists.c.o -o cmTC_3200a  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realpath exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8307e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8307e.dir/build.make CMakeFiles/cmTC_8307e.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8307e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8307e.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8307e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8307e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8307e.dir/CheckSymbolExists.c.o -o cmTC_8307e  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_98f83/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_98f83.dir/build.make CMakeFiles/cmTC_98f83.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98f83.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_98f83.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_98f83
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98f83.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_98f83.dir/CheckSymbolExists.c.o -o cmTC_98f83  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2d74/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2d74.dir/build.make CMakeFiles/cmTC_f2d74.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f2d74.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f2d74.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f2d74
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2d74.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f2d74.dir/CheckSymbolExists.c.o -o cmTC_f2d74  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e24ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e24ae.dir/build.make CMakeFiles/cmTC_e24ae.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e24ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e24ae.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e24ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e24ae.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e24ae.dir/CheckSymbolExists.c.o -o cmTC_e24ae  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b8b5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b8b5.dir/build.make CMakeFiles/cmTC_8b8b5.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b8b5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8b8b5.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8b8b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b8b5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8b8b5.dir/CheckSymbolExists.c.o -o cmTC_8b8b5  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_002c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_002c5.dir/build.make CMakeFiles/cmTC_002c5.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_002c5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_002c5.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_002c5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_002c5.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_002c5.dir/CheckSymbolExists.c.o -o cmTC_002c5  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e36ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e36ed.dir/build.make CMakeFiles/cmTC_e36ed.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e36ed.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e36ed.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e36ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e36ed.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e36ed.dir/CheckSymbolExists.c.o -o cmTC_e36ed  -lm -ldl 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f913a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f913a.dir/build.make CMakeFiles/cmTC_f913a.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f913a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f913a.dir/CheckSymbolExists.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f913a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f913a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f913a.dir/CheckSymbolExists.c.o -o cmTC_f913a  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+File /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_48bb0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_48bb0.dir/build.make CMakeFiles/cmTC_48bb0.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_48bb0.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_INT64_T   -o CMakeFiles/cmTC_48bb0.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_48bb0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48bb0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_48bb0.dir/src.cxx.o -o cmTC_48bb0  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e3b93/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e3b93.dir/build.make CMakeFiles/cmTC_e3b93.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e3b93.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_UINT64_T   -o CMakeFiles/cmTC_e3b93.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e3b93
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3b93.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_e3b93.dir/src.cxx.o -o cmTC_e3b93  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_900ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_900ba.dir/build.make CMakeFiles/cmTC_900ba.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_900ba.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_U_INT64_T   -o CMakeFiles/cmTC_900ba.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_900ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_900ba.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_900ba.dir/src.cxx.o -o cmTC_900ba  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_43c2d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_43c2d.dir/build.make CMakeFiles/cmTC_43c2d.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_43c2d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB  -std=c++11 -o CMakeFiles/cmTC_43c2d.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_43c2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43c2d.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 CMakeFiles/cmTC_43c2d.dir/src.cxx.o -o cmTC_43c2d  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ad4eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ad4eb.dir/build.make CMakeFiles/cmTC_ad4eb.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ad4eb.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB  -std=c++11 -o CMakeFiles/cmTC_ad4eb.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ad4eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad4eb.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 CMakeFiles/cmTC_ad4eb.dir/src.cxx.o -o cmTC_ad4eb  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_25913/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_25913.dir/build.make CMakeFiles/cmTC_25913.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_25913.dir/src.cxx.o
+/usr/bin/c++ -DLLVM_HAS_ATOMICS   -o CMakeFiles/cmTC_25913.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_25913
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25913.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_25913.dir/src.cxx.o -o cmTC_25913  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <Intrin.h> /* Workaround for PR19898. */
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_abc03/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_abc03.dir/build.make CMakeFiles/cmTC_abc03.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_abc03.dir/src.cxx.o
+/usr/bin/c++ -DSUPPORTS_VARIADIC_MACROS_FLAG  -Wvariadic-macros -o CMakeFiles/cmTC_abc03.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_abc03
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abc03.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_abc03.dir/src.cxx.o -o cmTC_abc03  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41a01/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_41a01.dir/build.make CMakeFiles/cmTC_41a01.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_41a01.dir/src.cxx.o
+/usr/bin/c++ -DHAS_MAYBE_UNINITIALIZED  -Wmaybe-uninitialized -o CMakeFiles/cmTC_41a01.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_41a01
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41a01.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_41a01.dir/src.cxx.o -o cmTC_41a01  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f11e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f11e2.dir/build.make CMakeFiles/cmTC_f11e2.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f11e2.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FPIC  -Werror -fPIC -o CMakeFiles/cmTC_f11e2.dir/src.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f11e2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f11e2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f11e2.dir/src.c.o -o cmTC_f11e2  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0433c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0433c.dir/build.make CMakeFiles/cmTC_0433c.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0433c.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FPIC  -Werror -fPIC -o CMakeFiles/cmTC_0433c.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0433c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0433c.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0433c.dir/src.cxx.o -o cmTC_0433c  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4dda5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4dda5.dir/build.make CMakeFiles/cmTC_4dda5.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4dda5.dir/src.cxx.o
+/usr/bin/c++ -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -fPIC    -fvisibility-inlines-hidden -o CMakeFiles/cmTC_4dda5.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4dda5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4dda5.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC  CMakeFiles/cmTC_4dda5.dir/src.cxx.o -o cmTC_4dda5  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f4c14/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f4c14.dir/build.make CMakeFiles/cmTC_f4c14.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f4c14.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual    -Wmissing-field-initializers -o CMakeFiles/cmTC_f4c14.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_f4c14
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4c14.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual  CMakeFiles/cmTC_f4c14.dir/src.cxx.o -o cmTC_f4c14  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2d85/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2d85.dir/build.make CMakeFiles/cmTC_c2d85.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c2d85.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized    -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_c2d85.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c2d85
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2d85.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized  CMakeFiles/cmTC_c2d85.dir/src.cxx.o -o cmTC_c2d85  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc060/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dc060.dir/build.make CMakeFiles/cmTC_dc060.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dc060.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_WERROR_DATE_TIME  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment    -Werror -Werror=date-time -o CMakeFiles/cmTC_dc060.dir/src.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dc060
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dc060.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment  CMakeFiles/cmTC_dc060.dir/src.c.o -o cmTC_dc060  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ab3cf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab3cf.dir/build.make CMakeFiles/cmTC_ab3cf.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab3cf.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_WERROR_DATE_TIME  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment    -Werror -Werror=date-time -o CMakeFiles/cmTC_ab3cf.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ab3cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab3cf.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment  CMakeFiles/cmTC_ab3cf.dir/src.cxx.o -o cmTC_ab3cf  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_870e0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_870e0.dir/build.make CMakeFiles/cmTC_870e0.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_870e0.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_CXX11  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -Werror=date-time    -std=c++11 -o CMakeFiles/cmTC_870e0.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_870e0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_870e0.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -Werror=date-time  CMakeFiles/cmTC_870e0.dir/src.cxx.o -o cmTC_870e0  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_73868/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_73868.dir/build.make CMakeFiles/cmTC_73868.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_73868.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FNO_FUNCTION_SECTIONS  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -Werror=date-time    -Werror -fno-function-sections -o CMakeFiles/cmTC_73868.dir/src.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_73868
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73868.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -Werror=date-time  CMakeFiles/cmTC_73868.dir/src.c.o -o cmTC_73868  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a2a5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a2a5.dir/build.make CMakeFiles/cmTC_7a2a5.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a2a5.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FFUNCTION_SECTIONS  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -Werror=date-time    -Werror -ffunction-sections -o CMakeFiles/cmTC_7a2a5.dir/src.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7a2a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a2a5.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -Werror=date-time  CMakeFiles/cmTC_7a2a5.dir/src.c.o -o cmTC_7a2a5  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a2ed/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a2ed.dir/build.make CMakeFiles/cmTC_2a2ed.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2a2ed.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FFUNCTION_SECTIONS  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -Werror=date-time -std=c++11    -Werror -ffunction-sections -o CMakeFiles/cmTC_2a2ed.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_2a2ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a2ed.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -Werror=date-time -std=c++11  CMakeFiles/cmTC_2a2ed.dir/src.cxx.o -o cmTC_2a2ed  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc08c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc08c.dir/build.make CMakeFiles/cmTC_bc08c.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc08c.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FDATA_SECTIONS  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -Werror=date-time -ffunction-sections    -Werror -fdata-sections -o CMakeFiles/cmTC_bc08c.dir/src.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bc08c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc08c.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -Werror=date-time -ffunction-sections  CMakeFiles/cmTC_bc08c.dir/src.c.o -o cmTC_bc08c  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4bbd6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4bbd6.dir/build.make CMakeFiles/cmTC_4bbd6.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4bbd6.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FDATA_SECTIONS  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -Werror=date-time -std=c++11 -ffunction-sections    -Werror -fdata-sections -o CMakeFiles/cmTC_4bbd6.dir/src.cxx.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4bbd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bbd6.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -Werror=date-time -std=c++11 -ffunction-sections  CMakeFiles/cmTC_4bbd6.dir/src.cxx.o -o cmTC_4bbd6  -lm 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03539/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03539.dir/build.make CMakeFiles/cmTC_03539.dir/build
+gmake[1]: Entering directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03539.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -Werror=date-time -ffunction-sections -fdata-sections  -o CMakeFiles/cmTC_03539.dir/CheckIncludeFile.c.o -c /home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_03539
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03539.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -Werror=date-time -ffunction-sections -fdata-sections   -Wl,-allow-shlib-undefined  CMakeFiles/cmTC_03539.dir/CheckIncludeFile.c.o -o cmTC_03539 
+gmake[1]: Leaving directory '/home/lab/Documents/Toy-Obfuscator/build/CMakeFiles/CMakeTmp'
+
+
+

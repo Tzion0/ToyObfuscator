@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../libLLVMRISCVDesc.a CMakeFiles/LLVMRISCVDesc.dir/RISCVAsmBackend.cpp.o CMakeFiles/LLVMRISCVDesc.dir/RISCVELFObjectWriter.cpp.o CMakeFiles/LLVMRISCVDesc.dir/RISCVMCAsmInfo.cpp.o CMakeFiles/LLVMRISCVDesc.dir/RISCVMCTargetDesc.cpp.o CMakeFiles/LLVMRISCVDesc.dir/RISCVMCCodeEmitter.cpp.o
+/usr/bin/ranlib ../../../libLLVMRISCVDesc.a

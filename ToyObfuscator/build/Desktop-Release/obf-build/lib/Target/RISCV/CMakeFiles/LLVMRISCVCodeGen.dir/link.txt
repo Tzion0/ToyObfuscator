@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../libLLVMRISCVCodeGen.a CMakeFiles/LLVMRISCVCodeGen.dir/RISCVTargetMachine.cpp.o
+/usr/bin/ranlib ../../libLLVMRISCVCodeGen.a

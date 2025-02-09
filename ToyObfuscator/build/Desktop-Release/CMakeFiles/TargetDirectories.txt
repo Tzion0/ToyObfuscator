@@ -1,0 +1,11 @@
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/ToyObfuscator.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/package.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/package_source.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/edit_cache.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/rebuild_cache.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/list_install_components.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/install.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/install/local.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/install/strip.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/ToyObfuscator_autogen_timestamp_deps.dir
+/home/lab/Documents/FYP/ToyObfuscator/build/Desktop-Release/CMakeFiles/ToyObfuscator_autogen.dir
